@@ -1,0 +1,159 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:'Open Sans', sans-serif;
+	vertical-align:baseline;
+}
+
+body{
+	background: linear-gradient(45deg, #0fe7d5, #c0e455);
+	background-repeat: none;
+
+}
+
+.manu{margin-top:20px ;
+	height: 100px;
+	text-align: center;
+}
+.manu ul li{
+	display:inline-block;
+}
+.manu ul li a{
+	display: block;
+	text-decoration: none;
+	color:rgb(253, 6, 6);
+	padding:7px 10px;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: normal;
+	transition:.5s ease-in-out;
+	border-radius: 20px;
+ 
+}
+.manu ul li i{
+	font-size: 20px;
+	margin-right: 5px;
+}
+.manu ul li a:hover{
+	background:red;
+	color: white;
+	transition:.4s ease-in-out;
+	
+}
+.icon ul{
+	text-align: center;
+}
+.icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+.icon ul li a i{
+	height: 50px;
+	width: 50px;
+	background: red;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	color: white;
+	border: 1px solid red;
+	border-radius: 50%;
+	margin-right: 10px;
+	transition: .5s ease-in-out;
+}
+
+.icon ul li a i:hover{
+	transform: scale(.8);
+	transition:.4s ease-in-out;
+	font-size: 20px;
+	background: transparent;
+	
+	color: red;
+}
+
+.subs{
+	width: 480px;
+	height: 180px;
+	background: rgba(250, 236, 236, .5);
+	margin:70px auto;
+	border-radius: 10px;
+}
+.sub-title{
+	padding: 30px 10px 10px;
+	text-align: center;
+	font-size: 1.6rem;
+}
+.sub-content{
+	padding: 10px 20px;
+}
+
+.sub-content .form-control{
+	border: none;
+}
+
+.sub-content .form-control:focus{
+	box-shadow: none;
+
+	border-bottom: 1px solid dodgerblue;
+}
+.sub-content a{
+	text-decoration: none;
+
+	
+}
+.sub-content .input-group-text{
+	border:none;
+}
+
+.reg{
+
+	background: honeydew;
+	padding:70px;
+	width: 700px;
+	margin: auto;
+	margin-bottom: 70px;
+	border-radius: 10px;
+}
+.reg-title{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 1.6rem;
+}
+.reg input{
+	margin-top: 12px;
+}
+.reg input:focus{
+	box-shadow: none;
+}
+.reg a{
+	text-decoration: none;
+}
+.reg .btn-info{
+	background:linear-gradient(#d1e78d, #13d1c1);
+	border:none;
+	color: rgb(0, 0, 0);
+
+}
+
+.reg .btn-info:hover{
+	background: linear-gradient(#55c7e4, #d2eb8a);
+}
+footer{
+	text-align: center;
+	padding: 15px;
+	color: rgb(96, 99, 100);
+}
